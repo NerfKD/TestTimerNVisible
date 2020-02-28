@@ -19,6 +19,7 @@ namespace TestTimerNVisible
         //static int SW_SHOW = 5;
         static void Main(string[] args)
         {
+            // Xd
             Timer t = new Timer(TimerCallback, null, 0, 10000);
             IntPtr myWindow = GetConsoleWindow();
             // Hide
